@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Conheça a história, a cultura, a resistência e a importância da Consciência Negra no Brasil.">
+    <meta name="theme-color" content="#17130f">
+    <title>Consciência Negra | História, Cultura e Resistência</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --black: #17130f;
+            --dark: #241b16;
+            --gold: #d5a33b;
+            --red: #a93629;
+            --green: #326b45;
+            --cream: #f7f0e4;
+            --white: #fffdf8;
+            --text: #33291f;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'DM Sans', sans-serif;
+            background: var(--cream);
+            color: var(--text);
+            line-height: 1.7;
+        }
+
+        h1, h2, h3 {
+            font-family: 'Playfair Display', serif;
+            line-height: 1.2;
+        }
+
+        a {
+            color: var(--gold);
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        a:hover {
+            color: var(--red);
+        }
+
+        header {
+            background: var(--black);
+            color: var(--white);
+            padding: 1.5rem 2rem;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header .logo {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--gold);
+        }
+
+        nav ul {
+            display: flex;
+            list-style: none;
+            gap: 1.5rem;
+        }
+
+        nav a {
+            color: var(--white);
+            font-weight: 500;
+        }
+
+        .hero {
+            background: linear-gradient(rgba(23, 19, 15, 0.8), rgba(23, 19, 15, 0.8)), url('https://images.unsplash.com/photo-1534447677768-be436bb09401?auto=format&fit=crop&w=1200&q=80') center/cover;
+            color: var(--white);
+            padding: 6rem 2rem;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            color: var(--gold);
+            margin-bottom: 1rem;
+        }
+
+        .hero p {
+            font-size: 1.25rem;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        section {
+            padding: 4rem 2rem;
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .card {
+            background: var(--white);
+            padding: 2rem;
+            border-radius: 8px;
+            border-left: 4px solid var(--gold);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+        }
+
+        .card h3 {
+            color: var(--dark);
+            margin-bottom: 0.75rem;
+        }
+
+        footer {
+            background: var(--black);
+            color: var(--cream);
+            text-align: center;
+            padding: 2rem;
+            margin-top: 4rem;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo">Consciência Negra</div>
+        <nav>
+            <ul>
+                <li><a href="#historia">História</a></li>
+                <li><a href="#zumbi">Zumbi dos Palmares</a></li>
+                <li><a href="#cultura">Cultura</a></li>
+                <li><a href="#importancia">Importância</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="hero">
+        <h1>Consciência Negra</h1>
+        <p>História, cultura, resistência e a luta contínua por igualdade e justiça no Brasil.</p>
+    </div>
+
+    <main>
+        <section id="historia">
+            <h2>A História do Dia 20 de Novembro</h2>
+            <p>O Dia Nacional de Zumbi e da Consciência Negra, celebrado em 20 de novembro, ressalta a importância de refletir sobre o impacto da população negra na formação da sociedade brasileira.</p>
+        </section>
+
+        <section id="zumbi">
+            <h2>Zumbi dos Palmares</h2>
+            <p>A data foi escolhida por coincidir com o dia da morte de Zumbi dos Palmares, em 1695, um dos maiores líderes do Quilombo dos Palmares e símbolo da resistência contra a escravidão no Brasil.</p>
+        </section>
+
+        <section id="cultura">
+            <h2>Cultura e Legado</h2>
+            <div class="grid">
+                <div class="card">
+                    <h3>Arte e Música</h3>
+                    <p>A influência negra na música, na dança e nas artes visuais moldou a identidade cultural do país.</p>
+                </div>
+                <div class="card">
+                    <h3>Gastronomia</h3>
+                    <p>Pratos tradicionais e técnicas culinárias preservadas representam a riqueza da herança africana.</p>
+                </div>
+                <div class="card">
+                    <h3>Linguagem e Literatura</h3>
+                    <p>Expressões, vocabulário e grandes autores negros enriquecem a literatura e a língua portuguesa brasileira.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="importancia">
+            <h2>A Importância da Data</h2>
+            <p>Mais do que uma homenagem histórica, o Dia da Consciência Negra é um momento de conscientização sobre o combate ao racismo estrutural e a busca pela equidade social.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 - Projeto sobre Consciência Negra | Hospedado no GitHub Pages</p>
+    </footer>
+
+</body>
+</html>
